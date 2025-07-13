@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Modify History : rofl0r => HIMEL => Mohammad_Alamin (Toxinum) (HIMEL)
+# Modify History : Sium
 # VERSION 1.0.1
 # Open Source Code.No Need More Modification.
 import sys, subprocess, os, tempfile, shutil, re, codecs, socket, pathlib, time, collections, statistics, collections, csv, http.client, marshal
@@ -995,7 +995,7 @@ class WiFiScanner:
         print('''
 	
 SIUM
-                                                    \n\t\t[\033[1;32m*\033[1;37m] NAME        : HIMEL MAJUMDER  PRONOB\n\t\t[\033[1;32m*\033[1;37m] WORK ONLY   : GREEN-COLOR WIFI\n\t\t[\033[1;32m*\033[1;37m] AUTHOR      : REDEYE | HIMEL \n\t\t[\033[1;32m*\033[1;37m] Version     : HIMEL2.0 \n\t\t[\033[1;32m*\033[1;37m] FACEBOOK    : Himel Majumder Pronob\n''')
+                                                    \n\t\t[\033[1;32m*\033[1;37m] NAME        : Sium\n\t\t[\033[1;32m*\033[1;37m] WORK ONLY   : GREEN-COLOR WIFI\n\t\t[\033[1;32m*\033[1;37m] AUTHOR      : Sium \n\t\t[\033[1;32m*\033[1;37m] Version     : Sium\n\t\t[\033[1;32m*\033[1;37m] FACEBOOK    : সাদমান সাকিব\n''')
         networks = self.iw_scanner()
         if not networks:
             ani('[\033[1;31m-\033[1;37m] No WPS networks found!')
@@ -1041,7 +1041,7 @@ def die(msg):
 
 def usage():
     return """
-Himel 0.0.2 (c) 2017 rofl0r (modified).
+Sium 0.0.2 (c) 2017 (modified).
 
 %(prog)s <arguments>
 
