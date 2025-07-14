@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Modify History : Sium
+# Modify History :
 # VERSION 1.0.1
 # Open Source Code.No Need More Modification.
 import sys, subprocess, os, tempfile, shutil, re, codecs, socket, pathlib, time, collections, statistics, collections, csv, http.client, marshal
@@ -994,8 +994,21 @@ class WiFiScanner:
         os.system('clear')
         print('''
 	
-SIUM
+SIMPLE WIFI HACKING TOOL
 
+
+ 
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓██████████████▓▒░░▒▓████████▓▒░▒▓█▓▒░        
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░        
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░        
+░▒▓████████▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓██████▓▒░ ░▒▓█▓▒░        
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░        
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░        
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓████████▓▒░ 
+                                                                   
+                                                                   
+RedEyE-007-Himel 
+                                                    \n\t\t[\033[1;32m*\033[1;37m] NAME        : HIMEL MAJUMDER  PRONOB\n\t\t[\033[1;32m*\033[1;37m] WORK ONLY   : GREEN-COLOR WIFI\n\t\t[\033[1;32m*\033[1;37m] AUTHOR      : REDEYE | HIMEL \n\t\t[\033[1;32m*\033[1;37m] Version     : HIMEL2.0 \n\t\t[\033[1;32m*\033[1;37m] FACEBOOK    : Himel Majumder Pronob\n''')
         networks = self.iw_scanner()
         if not networks:
             ani('[\033[1;31m-\033[1;37m] No WPS networks found!')
@@ -1010,7 +1023,7 @@ SIUM
         while 1:
             try:
                 print('\n\033[1;32m════════════════════════════════════════════════════════\033[1;37m')
-                networkNo = input('[\033[1;33m?\033[1;37m] select target (press Enter to refresh): ')
+                networkNo = input('[\033[1;33m?\033[1;37m] Select target (press Enter to refresh): ')
                 if networkNo.lower() in ('r', '0', ''):
                     return self.prompt_network()
                 elif int(networkNo) in networks.keys():
@@ -1041,7 +1054,7 @@ def die(msg):
 
 def usage():
     return """
-Sium 0.0.2 (c) 2017 (modified).
+Himel 0.0.2 (c) 2017 rofl0r (modified).
 
 %(prog)s <arguments>
 
@@ -1188,12 +1201,12 @@ if __name__ == '__main__':
         except KeyboardInterrupt:
             if args.loop:
                 if input("\n[?] Exit the script (otherwise continue to AP scan)? [N/y] ").lower() == 'y':
-                    ani("\n[\033[1;31m!\033[1;37m]")
+                    ani("\n[\033[1;31m!\033[1;37m] Stolen by SIUM")
                     break
                 else:
                     args.bssid = None
             else:
-                ani("\n[\033[1;31m!\033[1;37m]")
+                ani("\n[\033[1;31m!\033[1;37m]Stolen by SIUM")
                 break
 
     if args.iface_down:
