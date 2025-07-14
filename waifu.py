@@ -956,8 +956,8 @@ class WiFiScanner:
         if self.vuln_list:
             print('Network marks: {1} {0} {2} {0} {3}'.format(
                 '|',
-                colored('bruh Possibly vulnerable', color='green'),
-                colored('sorry bruh WPS locked', color='red'),
+                colored('possibly vulnerable', color='green'),
+                colored('WPS locked', color='red'),
                 colored('Already stored', color='yellow')
             ))
         print('Networks list:')
@@ -995,7 +995,7 @@ class WiFiScanner:
         print('''
 	
 SIUM
-                                                    \n\t\t[\033[1;32m*\033[1;37m] NAME        : Sium\n\t\t[\033[1;32m*\033[1;37m] WORK ONLY   : GREEN-COLOR WIFI\n\t\t[\033[1;32m*\033[1;37m] AUTHOR      : Sium \n\t\t[\033[1;32m*\033[1;37m] Version     : Sium\n\t\t[\033[1;32m*\033[1;37m] FACEBOOK    : সাদমান সাকিব\n''')
+
         networks = self.iw_scanner()
         if not networks:
             ani('[\033[1;31m-\033[1;37m] No WPS networks found!')
@@ -1010,7 +1010,7 @@ SIUM
         while 1:
             try:
                 print('\n\033[1;32m════════════════════════════════════════════════════════\033[1;37m')
-                networkNo = input('[\033[1;33m?\033[1;37m] Bruh Select target (press Enter to refresh): ')
+                networkNo = input('[\033[1;33m?\033[1;37m] select target (press Enter to refresh): ')
                 if networkNo.lower() in ('r', '0', ''):
                     return self.prompt_network()
                 elif int(networkNo) in networks.keys():
