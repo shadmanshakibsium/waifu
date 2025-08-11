@@ -17,7 +17,7 @@ rm -rf Wifi_hack_v2
 # Note
 Root-level access is necessary.
 
-# Note: 
+# Note
 + **First turn off your Wifi.**
 + **Turn on Hotspot.**
 + **Turn on Location.**
