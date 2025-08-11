@@ -1,6 +1,6 @@
 # waifu
 
-# Installing requirements
+# Installation
 ```console
 pkg update && pkg upgrade -y
 pkg install root-repo -y
@@ -10,7 +10,14 @@ git clone https://github.com/shadmanshakibsium/waifu
 cd waifu
 sudo python waifu.py -i wlan0 -K
  ```
-# Uninstall CMD
+# Uninstall
 ```console
 rm -rf Wifi_hack_v2
  ```
+# Note
+Root-level access is necessary.
+
+# Note: 
++ **First turn off your Wifi.**
++ **Turn on Hotspot.**
++ **Turn on Location.**
